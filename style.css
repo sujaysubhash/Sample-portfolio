@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav section */
+.my-name{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-texts{
+    font-family: 'Varela Round', sans-serif;
+}
+/* nav section */
+
+
+/* landing section */
+div.landing{
+    height: 100vh; 
+}
+
+.about{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;}
+/* landing section */
+
+
+/* section-1 */
+/* .section-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+} */
+/* .heading{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+    padding-block: 10px;
+} */
+
+.skills{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+
+}
+div.skills:hover{
+    width: 27vw;
+    height: 52vh;
+}
+h1.mySkills{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.skill-head{
+    background-color:#000;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.heading{
+    margin-block-start: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+li.list{
+    text-align: left;
+    margin-inline-start: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    list-style: circle;
+}
+
+.achieve{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+.education{
+    width: 25vw;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+
+}
+.myEdu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+div.education:hover{
+    width: 27vw;
+    height: 52vh;
+}
+.edu-head{
+    background-color: #000;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-block: 10px;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* section-1 */
+
+/* section-2 */
+.section2{
+    width: 100%;
+    height: 50vh;
+
+}
+.project-heading{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+    padding-block: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold; 
+    font-size: 45px;
+}
+
+
+/* section-2 */
+
+/* section-3 */
+section.section3{
+    width: 100%;
+    height: 120vh;
+    padding-inline: 150px;
+}
+.workflow{
+    margin-block-start: 50px;
+    width: 30vw;
+    height: 30vh; 
+    font-size: 2.5rem;
+}
+.phases{
+    margin-block-start: 40px;
+    width: 45vw;
+    height: 120vh;
+    position: relative;
+}
+.phase-1{
+    width: 40vw;
+    height: 30vh;
+    background-color:#fff;
+    margin-block: 15px;
+    border-radius: 20px;
+    position: relative;
+    padding: 40px 10px 20px 20px;
+
+}
+.phase{
+    width: 40vw;
+    height: 30vh;
+    background-color:#000;
+    margin-block: 15px;
+    border-radius: 20px;
+    padding: 40px 10px 20px 20px;
+}
+h1.head-phase{
+    font-size: 25px;
+    color: #000;
+}
+p.para-phase{
+    color: #000;
+}
+h1.head-phase2{
+    font-size: 25px;
+    color: #fff;
+}
+p.para-phase2{
+    color: #fff;
+
+}
+/* section-3 */
+
+.contact-section{
+    height: 550px;
+}
+.myform{
+    margin-inline: 300px;
+}
+#submit{
+    padding-inline: 47.3%;
+    padding-block: 1%;
+}
+#emailHelp{
+    font-size: 12px;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 30vh;
+}
+.ftr{
+    width: 100%;
+    height: 25vh;
+    background: lightslategray;
+}
+/* footer */
